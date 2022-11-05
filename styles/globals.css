@@ -15,12 +15,22 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
   html {
-    color-scheme: dark;
+    color-scheme: white;
   }
   body {
     color: white;
-    background: black;
+    background: white;
   }
+}
+
+.container {
+  margin: 30px 30px 0 30px;
+}
+
+.list-summary {
+  border: 1px solid #d1d1d1;
+  border-radius: 5;
+  min-height: 100;
 }
